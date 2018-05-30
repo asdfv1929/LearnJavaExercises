@@ -93,5 +93,29 @@ ArrayList的简单使用
   - subtract
   - multiply
   - divide(BigDecimal divisor, int scale, int roundingMode)
-  
+
 2018.05.29
+
+## CollectionFrame
+- ArrayList
+  - add
+  - size
+
+集合
+-Collection
+  - contains
+  - clear
+  - remove
+
+迭代器
+- Iterator
+  - hasNext
+  - next
+
+泛型
+- 通配符 ?
+- 限定
+  - ? extends Employee 限制的是父类, 上限限定, 可以传递Employee,传递他的子类对象
+  - ? super   Employee 限制的是子类, 下限限定, 可以传递Employee,传递他的父类对象
+
+2018.05.30
