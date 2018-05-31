@@ -119,3 +119,13 @@ ArrayList的简单使用
   - ? super   Employee 限制的是子类, 下限限定, 可以传递Employee,传递他的父类对象
 
 2018.05.30
+
+
+# 异常
+- Throwable
+  - Exception
+    - RuntimeException
+  - Error
+- throws 定义在方法的声明上，后边跟的是异常的类型 后边同时可以跟多个数据类型
+- throw 定义在方法中，后边跟的是异常对象 同时只能抛出一个异常对象
+- try{} catch{} finally{}
